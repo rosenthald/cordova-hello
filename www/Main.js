@@ -85,7 +85,7 @@ Elm.Main.make = function (_elm) {
    A2(Signal._op["<~"],
    display,
    Window.dimensions),
-   Signal.constant(_L.fromArray([]))),
+   Touch.touches),
    sock);
    _elm.Main.values = {_op: _op
                       ,showTouches: showTouches
